@@ -1,4 +1,9 @@
-To use complicated js dependencies use npm and webpack 
+## Basic Web app Skeleton.
+
+Use app.py for basic. ws_app.py for websocket stuff. 
+
+
+### To use complicated js dependencies use npm and webpack 
 
 1. `npm init`
 
@@ -11,10 +16,10 @@ const path = require('path');
 
 module.exports = {
     entry: './src/index.js', // Your main JavaScript file
-           output: {
-    filename: 'bundle.js', // Output bundle file
-              path: path.resolve(__dirname, 'dist'), // Output directory
-           },
+    output: {
+        filename: 'bundle.js', // Output bundle file
+        path: path.resolve(__dirname, 'dist'), // Output directory
+    },
     mode: 'development', // or 'production'
 };
 ```
